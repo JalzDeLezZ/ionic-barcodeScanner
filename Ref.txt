@@ -1,0 +1,5 @@
+https://ionicframework.com/docs/native/barcode-scanner
+
+$ npm install phonegap-plugin-barcodescanner
+$ npm install @awesome-cordova-plugins/barcode-scanner
+$ ionic cap sync

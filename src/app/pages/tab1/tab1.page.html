@@ -8,4 +8,12 @@
 
 <ion-content [fullscreen]="true">
 
+  <ion-slides [options]="swiperOpts">
+    <ion-slide>
+      <ion-button (click)="mScan()" expand="full" fill="outline" shape="round">
+        Scan Code
+      </ion-button>
+    </ion-slide>
+  </ion-slides>
+
 </ion-content>
